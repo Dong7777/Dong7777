@@ -2,125 +2,128 @@
 Dong7777 | GitHub Profile
 
 维护说明：
-1. 用户名、统计图片、贡献图和仓库入口均已设置为 Dong7777。
-2. GitHub 不支持在 Profile README 中使用自定义 CSS 或 JavaScript；
-   本文件仅使用 Markdown、GitHub 支持的 HTML 和 SVG 图片。
-3. 配色：背景 0D1117、标题 58A6FF、强调色 39D3BB、正文 C9D1D9。
-4. 未公开的邮箱、学校、个人网站和学术账号不展示，避免示例信息误导访客。
-5. 部署及动画配置见 docs/SETUP.md；不要将操作说明粘贴到本文件。
+1. 信息层级：技术定位 → 工程能力 → 代表项目 → 研究与学习 → 贡献动态。
+2. 仅使用 GitHub 支持的 Markdown、HTML 与图片，不依赖 CSS 或 JavaScript。
+3. 深色基调：0D1117；蓝色标题：58A6FF；青绿强调：39D3BB。
+4. 非核心研究细目、统计卡片放在 details 展开区，保持默认页面简洁。
+5. 只为已公开的项目添加真实链接，不展示虚构邮箱或学校身份。
+6. 动画配置与维护步骤见 docs/SETUP.md。
 -->
 
 <div align="center">
 
-# Hi, I'm Dong7777 👋
+# Dong7777
 
-**Embedded Systems · Smart Meters · Applied AI**
+### Embedded Systems · Smart Meters · Applied AI
 
-<!-- 修改 lines 参数可调整轮播文字；保留静态身份介绍，图片暂时不可用时仍可阅读。 -->
-<a href="https://github.com/Dong7777">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=22&amp;pause=1400&amp;color=39D3BB&amp;center=true&amp;vCenter=true&amp;width=480&amp;height=52&amp;lines=Embedded+Engineer;AI+Research+Enthusiast;Smart+Meter+Developer" width="480" height="52" alt="Embedded Engineer, AI Research Enthusiast, Smart Meter Developer" />
-</a>
+<!-- 动态副标题保持次要视觉权重；上方定位不依赖图片加载。 -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=400&amp;size=18&amp;pause=1600&amp;color=39D3BB&amp;center=true&amp;vCenter=true&amp;width=460&amp;height=38&amp;lines=Embedded+Engineer;AI+Research+Enthusiast;Smart+Meter+Developer" width="460" height="38" alt="Embedded Engineer, AI Research Enthusiast, Smart Meter Developer" />
 
-Building embedded systems. Connecting devices. Exploring applied AI.
+<p>Building reliable firmware. Connecting devices. Exploring applied AI.</p>
+<p><sub>嵌入式开发 · 智能电表 · 物联网 · 边缘智能</sub></p>
 
-立足工程实践，探索嵌入式系统、物联网与人工智能的融合。
-
-<a href="https://github.com/Dong7777?tab=repositories"><img src="https://img.shields.io/badge/Embedded-Systems-0D1117?style=flat-square&amp;logo=stmicroelectronics&amp;logoColor=58A6FF" alt="Embedded systems" /></a>
-<a href="#-research-interests"><img src="https://img.shields.io/badge/AI-Edge_Intelligence-0D1117?style=flat-square&amp;logo=pytorch&amp;logoColor=39D3BB" alt="AI and edge intelligence" /></a>
-<a href="#-engineering--teaching"><img src="https://img.shields.io/badge/Education-Mathematics_%26_Engineering-0D1117?style=flat-square&amp;logo=googlescholar&amp;logoColor=58A6FF" alt="Mathematics and engineering education" /></a>
-
-[About](#-about-me) · [Skills](#-tech-stack) · [Research](#-research-interests) · [Projects](#-selected-projects) · [Activity](#-github-activity)
+[Engineering](#engineering) &nbsp; / &nbsp; [Projects](#selected-work) &nbsp; / &nbsp; [Research](#research--learning) &nbsp; / &nbsp; [Activity](#activity)
 
 </div>
 
----
+<br />
 
-## 👨‍🏫 About Me
+## Engineering
 
-I focus on **embedded development, smart meter technology, IoT, and AI applications**. My interests connect mathematics, reliable firmware, and hands-on engineering education.
+I focus on **embedded development and smart meter firmware**, connecting devices through **IoT** and exploring how **AI can support embedded engineering**.
 
-- 🔭 **Current work:** smart meter firmware, embedded communication, and IoT applications.
-- 🧠 **Research focus:** LLM applications, edge AI, and AI-assisted embedded development.
-- 🌱 **Currently exploring:** LLM agents, TinyML, and AI-supported engineering workflows.
-- 🎓 **Teaching interests:** mathematics education, AI literacy, and project-based engineering practice.
+**Firmware & metering** &nbsp; `MCU` `Device Drivers` `Data Acquisition`  
+**Connected systems** &nbsp; `MQTT` `Telemetry` `Device-to-Cloud`  
+**Applied intelligence** &nbsp; `LLM Applications` `Edge AI` `TinyML`
+
+### Toolbox
+
+<!-- 按用途分组，而不是堆叠为单排图标。STM32、MQTT 使用 Shields.io。 -->
+| Layer | Technologies |
+| :--- | :--- |
+| **Firmware** | <img src="https://skillicons.dev/icons?i=c,cpp,linux&amp;theme=dark" width="108" alt="C, C++, Linux" /> &nbsp; <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&amp;logo=stmicroelectronics&amp;logoColor=white" alt="STM32" /> |
+| **AI & Data** | <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&amp;theme=dark" width="108" alt="Python, TensorFlow, PyTorch" /> |
+| **Tooling** | <img src="https://skillicons.dev/icons?i=git,docker&amp;theme=dark" width="70" alt="Git and Docker" /> |
+| **IoT** | <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&amp;logo=mqtt&amp;logoColor=white" alt="MQTT" /> |
+
+<br />
+
+## Selected Work
+
+<!-- 代表项目使用标题和引文突出展示，不与研究方向混排成同级表格。 -->
+### 🧬 [im6A](https://github.com/Dong7777/im6A)
+
+**Machine Learning Research · Biological Sequence Analysis**
+
+> Research code and datasets for tissue-specific methylation-site prediction.
+
+[View repository](https://github.com/Dong7777/im6A) &nbsp; · &nbsp; [All public repositories →](https://github.com/Dong7777?tab=repositories)
 
 <!--
-联系方式尚未提供，因此不展示虚构邮箱或空链接。
-确认公开邮箱后，可在上方列表中添加：
-- 📫 **Contact:** [Email](mailto:你的真实邮箱)
-学校主页、ORCID、Google Scholar 也应在确认真实地址后再添加。
+新增代表项目时，在这里添加同级三级标题，优先展示实际结果与可复现内容：
+### [Project Name](https://github.com/Dong7777/真实仓库名)
+**领域 · 技术**
+> 一句英文说明已实现的功能或研究问题。
+[View repository](https://github.com/Dong7777/真实仓库名)
+
+可逐步补充 Smart Meter Firmware、Edge AI Demo、Mathematics Education
+Resources 与 IoT Platform；未公开前不要添加看似可用的占位链接。
 -->
 
-## 🛠️ Tech Stack
+<br />
 
+## Research & Learning
+
+- **Embedded intelligence:** lightweight models, embedded inference, and AI-assisted firmware development.
+- **LLM applications:** practical engineering tools, agents, and development workflows.
+- **Mathematics & education:** computational modeling, AI literacy, and hands-on engineering practice.
+
+<p><sub>Currently exploring: LLM agents · TinyML · AI-supported engineering workflows</sub></p>
+
+<!-- 次要内容默认折叠；保留完整研究方向，不增加首页连续表格的长度。 -->
+<details>
+<summary>Research topics & engineering directions</summary>
+
+<br />
+
+| Direction | Topics |
+| :--- | :--- |
+| **Embedded Systems** | MCU firmware, low-level drivers, communication protocols, and reliability |
+| **Smart Meter Technology** | Energy measurement, data acquisition, communication, and firmware |
+| **Internet of Things** | MQTT, connected devices, telemetry, and cloud integration |
+| **Artificial Intelligence** | LLM applications, AI-assisted programming, and engineering tools |
+| **Edge AI & Machine Learning** | TinyML, lightweight inference, and applied prediction |
+| **Mathematics Education** | Mathematical thinking, computational modeling, and learning resources |
+| **Educational Technology** | AI-supported learning, practical assessment, and engineering education |
+
+### Engineering Directions
+
+These are areas of ongoing work and exploration, rather than a list of released repositories.
+
+- **Smart Meter Firmware:** metering, communication, data processing, and dependable software.
+- **Edge AI Demo:** lightweight inference and deployment on embedded devices.
+- **Mathematics Education Resources:** examples connecting mathematical ideas with computation.
+- **IoT Platform:** device connectivity, MQTT messaging, and telemetry visualization.
+
+</details>
+
+<br />
+
+## Activity
+
+<!-- 默认展示一张贡献图；多张统计卡片移入下方展开区。 -->
 <div align="center">
-
-<!-- Skill Icons 支持的图标；STM32 与 MQTT 使用下方 Shields.io 徽章。 -->
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,linux,git,docker,tensorflow,pytorch&amp;theme=dark&amp;perline=8" width="416" alt="C, C++, Python, Linux, Git, Docker, TensorFlow, and PyTorch" />
-</a>
-
-<br /><br />
-
-<img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&amp;logo=stmicroelectronics&amp;logoColor=white" alt="STM32" />
-<img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&amp;logo=mqtt&amp;logoColor=white" alt="MQTT" />
-<img src="https://img.shields.io/badge/Smart_Meters-0D1117?style=flat-square&amp;logoColor=white" alt="Smart meters" />
-<img src="https://img.shields.io/badge/Edge_AI-0D1117?style=flat-square&amp;logoColor=white" alt="Edge AI" />
-
-<p><sub>Embedded firmware · Device connectivity · Model deployment · Engineering tools</sub></p>
-
+  <a href="https://github.com/Dong7777?tab=overview">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dong7777&amp;theme=github_dark" width="760" alt="Dong7777's contribution activity graph" />
+  </a>
 </div>
 
-## 🔬 Research Interests
+<details>
+<summary>GitHub statistics · Languages · Contribution streak</summary>
 
-<!-- 研究兴趣与已完成成果分开表述；这里不暗示所有方向均已有公开项目或论文。 -->
-| Direction | Topics of Interest |
-| :--- | :--- |
-| 🔌 **Embedded Systems** | MCU firmware, device drivers, communication protocols, and reliability |
-| ⚡ **Smart Meter Technology** | Energy measurement, data acquisition, meter communication, and firmware |
-| 🌐 **Internet of Things** | MQTT, connected devices, telemetry, and device-to-cloud integration |
-| 🤖 **Artificial Intelligence** | LLM applications, AI-assisted programming, and engineering tools |
-| 🧠 **Edge AI & Machine Learning** | TinyML, lightweight models, embedded inference, and applied prediction |
-| ➗ **Mathematics Education** | Mathematical thinking, computational modeling, and learning resources |
-| 🎓 **Educational Technology** | AI-supported learning, practical assessment, and engineering education |
+<br />
 
-## ⚙️ Engineering & Teaching
-
-<!-- 这些是工作与探索方向，不是已发布仓库。公开项目后，可将名称改成真实仓库链接。 -->
-| Workstream | Focus |
-| :--- | :--- |
-| **Smart Meter Firmware** | Metering, communication, data processing, and dependable embedded software |
-| **Edge AI Demo** | Exploring lightweight inference and model deployment on embedded devices |
-| **Mathematics Education Resources** | Developing examples that connect mathematical ideas with computation |
-| **IoT Platform** | Exploring device connectivity, MQTT messaging, and telemetry visualization |
-
-## 🚀 Selected Projects
-
-<!-- 仅为已确认的公开仓库提供项目链接；不将所有项目都指向同一个仓库列表。 -->
-| Project | Overview |
-| :--- | :--- |
-| 🧬 **[im6A](https://github.com/Dong7777/im6A)** | Research code and datasets for tissue-specific methylation-site prediction. |
-
-<p align="center">
-  <a href="https://github.com/Dong7777?tab=repositories">Explore all public repositories →</a>
-</p>
-
-<!--
-后续公开项目时，将以下模板加入上面的项目表格，并先核对实际仓库名：
-| ⚡ **[Smart Meter Firmware](https://github.com/Dong7777/Smart-Meter-Firmware)** | 用一句英文介绍已实现功能。 |
-| 🧠 **[Edge AI Demo](https://github.com/Dong7777/Edge-AI-Demo)** | 写明实际设备、模型及演示内容。 |
-| ➗ **[Mathematics Education Resources](https://github.com/Dong7777/Mathematics-Education-Resources)** | 写明已有课程、资料或示例。 |
-| 🌐 **[IoT Platform](https://github.com/Dong7777/IoT-Platform)** | 写明实际支持的连接、采集或可视化功能。 |
--->
-
-## 📊 GitHub Activity
-
-<!--
-统计服务使用 GitHub Stats Extended，避免继续引用已停止维护的旧项目。
-这些是公开仓库活动统计，不代表全部工作量或技术熟练度。
-不要加 count_private=true：公开服务无法据此读取你的私有仓库。
-所有统计图片都带有可点击的 GitHub 页面入口。
--->
+<!-- 仅展示公开仓库活动；不要在公开图片 URL 中放入个人访问令牌。 -->
 <div align="center">
 
 <a href="https://github.com/Dong7777?tab=repositories">
@@ -136,22 +139,13 @@ I focus on **embedded development, smart meter technology, IoT, and AI applicati
   <img src="https://streak-stats.demolab.com/?user=Dong7777&amp;theme=github-dark-blue&amp;background=0D1117&amp;border=30363D&amp;ring=39D3BB&amp;fire=39D3BB&amp;currStreakLabel=58A6FF&amp;border_radius=6" width="600" alt="Dong7777's contribution streak and total contributions" />
 </a>
 
-<br /><br />
-
-<a href="https://github.com/Dong7777?tab=overview">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dong7777&amp;theme=github_dark" width="760" alt="Dong7777's contribution activity graph" />
-</a>
-
 </div>
 
-<!--
-贡献动画由 .github/workflows/snake.yml 生成并发布到 output 分支。
-上传配置后首次会自动执行，也可在 Actions 中手动 Run workflow。
-首次成功运行前，下方图片尚不存在；后续每天自动更新，失败时保留上次结果。
-picture 按访客的颜色偏好选择深色或浅色 SVG。
--->
+</details>
+
+<!-- 动画已由 .github/workflows/snake.yml 每日生成并发布到 output 分支。 -->
 <details>
-<summary>🐍 Contribution Animation</summary>
+<summary>🐍 Contribution animation</summary>
 
 <br />
 
@@ -165,17 +159,18 @@ picture 按访客的颜色偏好选择深色或浅色 SVG。
 
 </details>
 
+<br />
+
 ---
 
 <div align="center">
 
-### Thanks for visiting!
+**Thanks for visiting.**
 
-Open to conversations about **embedded systems, smart meters, IoT, applied AI, and engineering education**.
+<p><sub>欢迎交流嵌入式系统、智能电表、物联网与应用 AI。</sub></p>
 
-欢迎交流技术实践、教学资源与跨学科研究。
-
-<a href="https://github.com/Dong7777"><img src="https://img.shields.io/badge/GitHub-Dong7777-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Visit Dong7777 on GitHub" /></a>
 <img src="https://komarev.com/ghpvc/?username=Dong7777&amp;style=flat-square&amp;color=238636&amp;label=Profile+views" alt="Profile view counter" />
 
 </div>
+
+<!-- 联系方式待确认后再添加真实邮箱、个人主页或学术链接。 -->
