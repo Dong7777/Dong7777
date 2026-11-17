@@ -22,6 +22,8 @@ Dong7777 | GitHub Profile
 <p>Building reliable firmware. Connecting devices. Exploring applied AI.</p>
 <p><sub>嵌入式开发 · 智能电表 · 物联网 · 边缘智能</sub></p>
 
+<p><strong><a href="https://dong7777.github.io/">Personal Website ↗</a></strong></p>
+
 [Engineering](#engineering) &nbsp; / &nbsp; [Projects](#selected-work) &nbsp; / &nbsp; [Research](#research--learning) &nbsp; / &nbsp; [Activity](#activity)
 
 </div>
